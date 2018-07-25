@@ -1,0 +1,19 @@
+OSSEC v2.9.1
+Copyright (C) 2017 Trend Micro Inc.
+
+
+= Information about OSSEC =
+
+Visit http://www.ossec.net
+
+
+= Recommended Installation =
+
+See INSTALL
+
+
+== Configuring OSSEC ==
+
+Just follow the steps from the install.sh script.
+More information at
+https://ossec-docs.readthedocs.io/en/latest/manual/index.html
