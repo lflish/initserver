@@ -1,0 +1,8 @@
+{
+	"server":"1.2.3.4",
+	"server_port":8086,
+	"local_port":1080,
+	"password":"passwd",
+	"timeout":600,
+	"method":"aes-256-cfb"
+}
