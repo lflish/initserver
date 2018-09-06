@@ -1,0 +1,1 @@
+CEXTRA= -DDEFAULTDIR=\"/var/ossec\" -DLOCAL
