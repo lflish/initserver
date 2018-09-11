@@ -1,13 +1,12 @@
 #!/bin/bash
-#初始化脚本
+
+#基本工具安装
 sh shell/yum.sh
 
-mv shell/ss.sh ~/
-
-#加入防火墙
-iptables -A IN_public_allow -p tcp -m tcp --dport 8086 -m conntrack --ctstate NEW -j ACCEPT
+#安装梯子
+sh shell/ss.sh
 
 mkdir ~/download 
 
-#初始化脚本
+#博客环境搭建
 sh shell/hexo.sh

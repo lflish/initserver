@@ -5,4 +5,4 @@ git config --global user.name "lflish"
 git config --global credential.helper store
 
 #生成公钥
-#ssh-keygen
+ssh-keygen
