@@ -1,12 +1,20 @@
 #!/bin/bash
 
-#基本工具安装
-sh shell/yum.sh
-
-#安装梯子
-sh shell/ss.sh
-
 mkdir ~/download 
 
-#博客环境搭建
-sh shell/hexo.sh
+function init()
+{
+	echo "init $1"
+
+	cd $1
+	sh ./init.sh 
+	cd ..
+}
+
+#基本软件安装
+init shell 
+
+#工具环境初始化
+init tools
+
+exit 0
