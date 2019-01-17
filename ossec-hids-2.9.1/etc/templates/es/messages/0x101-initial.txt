@@ -1,4 +1,0 @@
-
- Usted esta por comenzar el proceso de instalación del OSSEC HIDS.
- Usted debe tener un compilador de C previamente instalado en el sistema.
-

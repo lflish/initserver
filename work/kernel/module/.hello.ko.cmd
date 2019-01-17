@@ -1,0 +1,1 @@
+cmd_/root/github/initserver/work/kernel/module/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/github/initserver/work/kernel/module/hello.ko /root/github/initserver/work/kernel/module/hello.o /root/github/initserver/work/kernel/module/hello.mod.o
