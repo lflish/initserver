@@ -4,3 +4,4 @@ yum -y install pcre pcre-devel
 yum -y install zlib zlib-devel
 yum -y install openssl openssl-devel
 yum -y install pcre pcre-devel
+yum -y install nc telnet

@@ -5,13 +5,13 @@ iptables -P OUTPUT ACCEPT
 
 #sleep 60
 #设置sshd端口放行
-iptables -A INPUT -p tcp --dport 26934 -j ACCEPT
+iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 #设置shadowsocks端口放行
-iptables -A INPUT -p tcp --dport 8086 -j ACCEPT
+iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
 #设置shadowsocksR端口放行
 iptables -A INPUT -p tcp --dport 443 -j ACCEPT
 #设置svn端口放行
-iptables -A INPUT -p tcp --dport 3690 -j ACCEPT
+#iptables -A INPUT -p tcp --dport 3690 -j ACCEPT
 #设置nginx端口放行
 iptables -A INPUT -p tcp --dport 80 -j ACCEPT
 
