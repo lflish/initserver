@@ -7,3 +7,12 @@ git config --global credential.helper store
 #生成公钥
 ssh-keygen -t ed25519 -C "hxy.gold@gmail.com"
 
+#vertify pubkey
+#ssh -T git@github.com
+
+#~/.ssh/config
+value="Host github.com
+    HostName ssh.github.com
+    User git
+    Port 443
+"

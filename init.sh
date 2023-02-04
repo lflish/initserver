@@ -1,8 +1,10 @@
 #!/bin/bash
 
-mkdir ~/download 
+if [ -f ~/download ];then
+	mkdir ~/download 
+fi
 
-function init()
+init()
 {
 	echo "init $1"
 
